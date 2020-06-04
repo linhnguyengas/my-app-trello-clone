@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Menu.css";
 export default function Home() {
   return (
     <div class="masthead">

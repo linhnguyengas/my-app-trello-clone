@@ -5,7 +5,7 @@ import store from "./component/store";
 import Context from "./component/Context";
 import InputContainer from "./component/InputContainer";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
-import Home from'./component/Home'
+import Menu from'./component/Menu'
 function App() {
   const [data, setData] = React.useState(store);
   //add new card
@@ -132,7 +132,7 @@ function App() {
                 }}
               >
                 <div>
-                <Home/>
+                <Menu/>
                 <h3 style={{padding: 20, fontSize: 20, color: '#fff', fontWeight: 'bold'}}>Training Board</h3>
                   <div style={{ display: "flex", paddingTop: 20 }}>
                     {data.listIds.map((listId, index) => {
